@@ -4,7 +4,7 @@ import json
 import os
 import sys
 
-from clash_speedtest.tests import test_http_latency, test_download_speed
+from tests import test_http_latency, test_download_speed
 
 CONFIG_FILE = "config.json"
 
