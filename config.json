@@ -1,0 +1,34 @@
+{
+    "API_BASE": "",
+    "_API_BASE_example": "http://127.0.0.1:9090",
+
+    "API_KEY": "",
+    "_API_KEY_example": "123456",
+
+    "selector_name": "",
+    "_selector_name_example": "策略组名称",
+
+    "keywords": [],
+    "_keywords_example": [
+        "香港",
+        "新加坡",
+        "日本",
+        "美国"
+    ],
+
+    "latency_test_urls": [],
+    "_latency_test_urls_example": [
+        "https://www.google.com",
+        "https://www.github.com",
+        "https://www.youtube.com",
+        "https://www.chatgpt.com"
+    ],
+
+    "download_speed_test_urls": [],
+    "_download_speed_test_urls_example": [
+        [
+            "Los Angeles",
+            "https://lax.download.datapacket.com/100mb.bin"
+        ]
+    ]
+}
