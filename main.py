@@ -6,7 +6,12 @@ import sys
 
 from tests import test_http_latency, test_download_speed
 
-CONFIG_FILE = "config.json"
+from pathlib import Path
+
+# 获取 main.py 所在目录
+BASE_DIR = Path(__file__).resolve().parent
+
+CONFIG_FILE = BASE_DIR / "config.json"
 
 def print_red(msg):
     print(f"\033[31m{msg}\033[0m")
