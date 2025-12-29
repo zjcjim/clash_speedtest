@@ -63,19 +63,7 @@ def download_speed(url: str, max_bytes=10*1024*1024):
         "elapsed": round(elapsed, 2),
         "downloaded_MB": round(total_bytes / (1024*1024), 2)
     }
-
-
-# 时延测试
-
-test_latency_urls = [
-    "https://www.google.com",
-    "https://www.github.com",
-    "https://www.youtube.com",
-    "https://www.chatgpt.com",
-]
-
-DEFAULT_TIMEOUT = 8
-
+    
 
 def http_latency(url: str):
     parsed = urlparse(url)
